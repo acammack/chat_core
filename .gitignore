@@ -1,0 +1,9 @@
+.chat_core.plt
+.erlang.mk
+_rel
+chat_core.d
+deps
+ebin
+logs
+relx
+test/*.beam

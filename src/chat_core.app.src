@@ -1,0 +1,8 @@
+{application, chat_core, [
+	{description, "Core chatting logic by example"},
+	{vsn, "rolling"},
+	{modules, []},
+	{registered, [chat_core_users_sup]},
+	{applications, [kernel,stdlib,gproc,lager]},
+  {mod, {chat_core_app, []}}
+]}.

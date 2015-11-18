@@ -1,0 +1,6 @@
+These are the known bugs in this application. Since the purpose of this project
+is to teach Erlang/OTP debugging and maintenance, they remain unfixed for
+incorporation into a future guide.
+
+* Joining a room that is the same as the nickname of a user will get you
+  access to all of a users messages. Solution: tag the names passed to gproc.
