@@ -18,7 +18,7 @@
 
 -spec log_on(binary(), binary()) -> {ok, pid()} | {error, badauth}.
 log_on(Nickname, Password) ->
-  chat_core_user:log_on(Nickname, Password, []).
+  chat_core_user:log_on(Nickname, Password, self()).
 
 -spec join(pid(), binary()) -> ok.
 join(User, Room) ->
